@@ -1,0 +1,19 @@
+{
+    "name": "stripe/app",
+    "description": "stripe tutorial",
+    "type": "project",
+    "require": {
+        "stripe/stripe-php": "^10.12"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stripe\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daghan"
+        }
+    ]
+}
