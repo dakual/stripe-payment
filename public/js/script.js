@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const bayBtn = document.querySelectorAll('button.btn-pay');
-  for (let i = 0; i < bayBtn.length; i++) {
-    bayBtn[i].addEventListener("click", function(e) {
+  const payBtn = document.querySelectorAll('button.btn-pay');
+  for (let i = 0; i < payBtn.length; i++) {
+    payBtn[i].addEventListener("click", function(e) {
       e.preventDefault();
       setLoading(e, true)
     }, false);
@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setLoading(e, isLoading) {
-  console.log(e.target); 
   if (isLoading) {
     e.target.setAttribute('disabled', 'disabled');
     e.target.parentNode.querySelector("div.loader").classList.remove("hide");

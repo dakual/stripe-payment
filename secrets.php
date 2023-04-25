@@ -1,2 +1,2 @@
 <?php
-$stripeSecretKey = 'sk_test_51HyCIpIWIR4kH5patmC0IdySjm1YdgEo47RUTJirTsWiFVL0UzPWgtGPsTaDfO5ZgSFvgSrnHpu14PVHp0KOuxQx00R1DrI5mL';
+$stripeSecretKey = 'sk_test_';
